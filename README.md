@@ -4,6 +4,7 @@ Before running this code, make sure the instance of Solr you're trying to connec
 Once you're done with the given code, simply run the main function to see the processing. The file can be run using the following commands on the terminal:
 - javac src/main/java/com/knoldus/solr/Solr.java
 - java src/main/java/com/knoldus/solr/Solr<br/>
+
 All the solr documents can be checked on the localhost :
 - Open the webpage of SolrAdmin (http://localhost:8983/solr/ by default).
 - Select a core/collection.
