@@ -1,3 +1,5 @@
+package com.knoldus.solr;
+
 import org.apache.solr.client.solrj.SolrClient;
 import org.apache.solr.client.solrj.SolrQuery;
 import org.apache.solr.client.solrj.SolrServerException;
@@ -19,8 +21,8 @@ public class Solr {
     public static void main(String args[]) throws IOException, SolrServerException {
         SolrInputDocument doc = new SolrInputDocument();
 
-        //addField(doc,1,"Ayush",24,"delhi");
-        //read("name:Ayush");
+        addField(doc,1,"Ayush",24,"delhi");
+        read("name:Ayush");
     }
     private static void addField(SolrInputDocument document,int id,String name,int age,String addr) throws IOException, SolrServerException {
         document.addField("id",id);
